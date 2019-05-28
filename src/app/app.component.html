@@ -1,20 +1,342 @@
-<!--The content below is only a placeholder and can be replaced.-->
-<div style="text-align:center">
-  <h1>
-    Welcome to {{ title }}!
-  </h1>
-  <img width="300" alt="Angular Logo" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNTAgMjUwIj4KICAgIDxwYXRoIGZpbGw9IiNERDAwMzEiIGQ9Ik0xMjUgMzBMMzEuOSA2My4ybDE0LjIgMTIzLjFMMTI1IDIzMGw3OC45LTQzLjcgMTQuMi0xMjMuMXoiIC8+CiAgICA8cGF0aCBmaWxsPSIjQzMwMDJGIiBkPSJNMTI1IDMwdjIyLjItLjFWMjMwbDc4LjktNDMuNyAxNC4yLTEyMy4xTDEyNSAzMHoiIC8+CiAgICA8cGF0aCAgZmlsbD0iI0ZGRkZGRiIgZD0iTTEyNSA1Mi4xTDY2LjggMTgyLjZoMjEuN2wxMS43LTI5LjJoNDkuNGwxMS43IDI5LjJIMTgzTDEyNSA1Mi4xem0xNyA4My4zaC0zNGwxNy00MC45IDE3IDQwLjl6IiAvPgogIDwvc3ZnPg==">
-</div>
-<h2>Here are some links to help you start: </h2>
-<ul>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://angular.io/tutorial">Tour of Heroes</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://github.com/angular/angular-cli/wiki">CLI Documentation</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://blog.angular.io/">Angular blog</a></h2>
-  </li>
-</ul>
+<app-loading></app-loading>
 
+<app-head-bar></app-head-bar>
+
+  <div class="section section-we-are-2 radu" id="about">
+    <div class="text-area">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="title add-animation">
+              <h5 class="text-gray">What we are</h5>
+              <h2>About</h2>
+              <div class="separator-container">
+                <div class="separator line-separator">∎</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-7 col-md-offset-1">
+            <p class="add-animation animation-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <p class="add-animation animation-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+              exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+              reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+              cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <p class="add-animation animation-3">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+              dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+              officia deserunt mollit anim id est laborum.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section section-we-made-1 section-with-hover" id="speakers">
+    <div class="row">
+      <div class="col-lg-4 col-md-6 col-sm-6">
+        <div class="project add-animation animation-1">
+          <img src="assets/img/rubik_background2.jpg" />
+          <a class="over-area color-1" href="javascript:void(0)" onClick="rubik.showModal(this)" data-target="project_1">
+            <div class="content">
+              <h4>Speaker 1</h4>
+              <p>Click for more... </p>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-6">
+        <div class="project add-animation animation-2">
+          <img src="assets/img/rubik_background2.jpg" />
+          <a class="over-area color-1" href="javascript:void(0)" onClick="rubik.showModal(this)" data-target="project_2">
+            <div class="content">
+              <h4>Speaker 2</h4>
+              <p>Click for more... </p>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-6">
+        <div class="project add-animation animation-3">
+          <img src="assets/img/rubik_background2.jpg" />
+          <a class="over-area color-1" href="javascript:void(0)" onClick="rubik.showModal(this)" data-target="project_3">
+            <div class="content">
+              <h4>Speaker 3</h4>
+              <p>Click for more... </p>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-6">
+        <div class="project add-animation animation-1">
+          <img src="assets/img/rubik_background2.jpg">
+          <a class="over-area color-1" href="javascript:void(0)" onClick="rubik.showModal(this)" data-target="project_4">
+            <div class="content">
+              <h4>Speaker 4</h4>
+              <p>Click for more... </p>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-6">
+        <div class="project add-animation animation-2">
+          <img src="assets/img/rubik_background2.jpg">
+          <a class="over-area color-1" href="javascript:void(0)" onClick="rubik.showModal(this)" data-target="project_5">
+            <div class="content">
+              <h4>Speaker 5</h4>
+              <p>Click for more... </p>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-6">
+        <div class="project add-animation animation-3">
+          <img src="assets/img/rubik_background2.jpg">
+          <a class="over-area color-1" href="javascript:void(0)" onClick="rubik.showModal(this)" data-target="project_6">
+            <div class="content">
+              <h4>Speaker 6</h4>
+              <p>Click for more... </p>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section section-we-do-1">
+    <div class="text-area">
+      <div class="container">
+        <div class="row">
+          <div class="title add-animation">
+            <h5 class="text-gray">Here are our</h5>
+            <h2>Core Values</h2>
+            <div class="separator-container">
+              <div class="separator line-separator">∎</div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-3 col-sm-6">
+            <div class="card add-animation animation-1">
+              <h5 class="text-gray">01.</h5>
+              <h3>Quality</h3>
+              <p>We set exacting standards and strive for consistency and precision in everything we do. We are
+                committed to continuously improving our capabilities.</p>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <div class="card add-animation animation-2">
+              <h5 class="text-gray">02.</h5>
+              <h3>Integrity</h3>
+              <p>We take individual and collapp-loadingective responsibility for keeping our promises, acting ethically and
+                demonstrating exemplary business conduct at all times because it is the right thing to do.</p>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <div class="card add-animation animation-3">
+              <h5 class="text-gray">03.</h5>
+              <h3>Attention to details</h3>
+              <p>We are dedicated to making every details look amazing. You can count on the fact that no thing slides
+                and everything will look just right. </p>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <div class="card add-animation animation-4">
+              <h5 class="text-gray">04.</h5>
+              <h3>Safety</h3>
+              <p>We are committed to creating and maintaining a safe surrounding to what will be your home. We take
+                into consideration every need and make sure every person will feel protected.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section section-clients-1" id="sponsors">
+    <div class="container">
+      <div class="text-area">
+        <div class="title add-animation-stopped">
+          <h5 class="text-gray">Some of our</h5>
+          <h2>Sponsors</h2>
+          <div class="separator-container">
+            <div class="separator line-separator">✻</div>
+          </div>
+          <p>Here can be a small description about your working process with your clients.</p>
+        </div>
+      </div>
+      <div class="list-logos">
+        <div class="row">
+          <div class="col-md-3">
+            <div class="logo add-animation-stopped animation-1">
+              <a href="#">
+                <img alt="..." src="assets/img/clients/forbes.svg" />
+                <img alt="..." src="assets/img/clients/forbes_h.svg" />
+              </a>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="logo add-animation-stopped animation-2">
+              <a href="#">
+                <img alt="..." src="assets/img/clients/intel.svg" />
+                <img alt="..." src="assets/img/clients/intel_h.svg" />
+              </a>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="logo add-animation-stopped animation-3">
+              <a href="#">
+                <img alt="..." src="assets/img/clients/apple.svg" />
+                <img alt="..." src="assets/img/clients/apple_h.svg" />
+              </a>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="logo add-animation-stopped animation-1">
+              <a href="#">
+                <img alt="..." src="assets/img/clients/vaio.svg" />
+                <img alt="..." src="assets/img/clients/vaio_h.svg" />
+              </a>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="logo add-animation-stopped animation-2">
+              <a href="#">
+                <img alt="..." src="assets/img/clients/hp.svg" />
+                <img alt="..." src="assets/img/clients/hp_h.svg" />
+              </a>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="logo add-animation-stopped animation-3">
+              <a href="#">
+                <img alt="..." src="assets/img/clients/samsung.svg" />
+                <img alt="..." src="assets/img/clients/samsung_h.svg" />
+              </a>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="logo add-animation-stopped animation-1">
+              <a href="#">
+                <img alt="..." src="assets/img/clients/canon.svg" />
+                <img alt="..." src="assets/img/clients/canon_h.svg" />
+              </a>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="logo add-animation-stopped animation-2">
+              <a href="#">
+                <img alt="..." src="assets/img/clients/siemens.svg" />
+                <img alt="..." src="assets/img/clients/siemens_h.svg" />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section section-team-4" id="blog">
+
+  </div>
+
+  <div class="section section-buy pattern-image" id="register">
+    <div class="full-background">
+      <div class="container">
+        <div class="content">
+          <div class="title">
+            <h2>Buy Now</h2>
+            <div class="separator-container">
+              <div class="separator line-separator">$</div>
+            </div>
+            <p>Each package comes with Rubik Builder&trade;, Responsive Design, New Icons Font, Documentation, Premium
+              Support and Free Forever Updates.</p>
+
+          </div>
+          <div class="row">
+            <div class="col-md-5 col-md-offset-1">
+              <div class="card card-price">
+                <div class="content-inside">
+                  <h3>Personal</h3>
+                  <p>Create a Single website for you or for a client.</p>
+                  <br>
+
+                  <h1><small>$</small><span>19</span></h1>
+                  <div class="footer">
+                    <a href="#" class="btn btn-default btn-fill">Buy
+                      now!</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-5">
+              <div class="card card-price">
+                <div class="content-inside">
+                  <h3>Developer</h3>
+                  <p>Create Multiple Websites for you or for clients.</p>
+                  <br>
+
+                  <h1><small>$</small><span>79</span></h1>
+                  <div class="footer">
+                    <a href="#" class="btn btn-default">Buy
+                      now!</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+</div>
+
+<div class="section section-contact-2" id="contact">
+  <div class="container">
+    <div class="text-area">
+      <div class="title add-animation">
+        <h5 class="text-gray">Feel free to</h5>
+        <h2>Contact Us</h2>
+        <div class="separator-container">
+          <div class="separator line-separator">∎</div>
+        </div>
+      </div>
+    </div>
+    <div class="contact-form">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="form-group add-animation animation-1">
+            <label>Your Full Name</label>
+            <input type="text" value="" placeholder="Michael Jordan" class="form-control">
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="form-group add-animation animation-2">
+            <label>Your Email</label>
+            <input type="text" value="" placeholder="michael.j@gmail.com" class="form-control">
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="form-group add-animation animation-3">
+            <label>Subject</label>
+            <input type="text" value="" placeholder="Say hi to you" class="form-control">
+          </div>
+        </div>
+        <div class="col-md-12">
+          <div class="form-group add-animation animation-3">
+            <textarea class="form-control" placeholder="Here you can write your nice text" rows="8"></textarea>
+          </div>
+          <div>
+            <div class="col-md-2 col-md-offset-5">
+              <button class="btn btn-lg btn-black btn-contact">
+                SEND <i class="fa fa-paper-plane"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<app-foot-bar></app-foot-bar>
