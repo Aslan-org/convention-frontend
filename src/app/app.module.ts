@@ -11,6 +11,7 @@ import { SponsorsComponent } from './sponsors/sponsors.component';
 import { BlogComponent } from './blog/blog.component';
 import { RegisterComponent } from './register/register.component';
 import { ContactComponent } from './contact/contact.component';
+import { ValuesComponent } from './values/values.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { ContactComponent } from './contact/contact.component';
     SponsorsComponent,
     BlogComponent,
     RegisterComponent,
-    ContactComponent
+    ContactComponent,
+    ValuesComponent
   ],
   imports: [
     BrowserModule
