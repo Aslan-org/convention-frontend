@@ -1,5 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { RouterModule, Routes } from '@angular/router';
+import { HashLocationStrategy, LocationStrategy } from '@angular/common';
 
 import { AppComponent } from './app.component';
 import { HeadBarComponent } from './head-bar/head-bar.component';
@@ -9,9 +11,22 @@ import { AboutComponent } from './about/about.component';
 import { SpeakersComponent } from './speakers/speakers.component';
 import { SponsorsComponent } from './sponsors/sponsors.component';
 import { BlogComponent } from './blog/blog.component';
-import { RegisterComponent } from './register/register.component';
+import { PricingComponent } from './pricing/pricing.component';
 import { ContactComponent } from './contact/contact.component';
-import { ValuesComponent } from './values/values.component';
+import { EditionsComponent } from './editions/editions.component';
+import { LandingImageComponent } from './landing-image/landing-image.component';
+import { LandingPageComponent } from './landing-page/landing-page.component';
+import { BlogPageComponent } from './blog-page/blog-page.component';
+
+const routes: Routes = [
+  // basic routes
+  { path: '', redirectTo: 'home', pathMatch: 'full' },
+  { path: 'home', component: LandingPageComponent },
+  //{ path: 'register-individual', component: IndividualRegistrationComponent },
+  //{ path: 'register-business', component: BusinessRegistrationComponent },
+  { path: 'blog', component: BlogPageComponent }
+  //{ path: '**', component: ErrorComponent }
+];
 
 @NgModule({
   declarations: [
@@ -23,14 +38,18 @@ import { ValuesComponent } from './values/values.component';
     SpeakersComponent,
     SponsorsComponent,
     BlogComponent,
-    RegisterComponent,
+    PricingComponent,
     ContactComponent,
-    ValuesComponent
+    EditionsComponent,
+    LandingImageComponent,
+    LandingPageComponent,
+    BlogPageComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    RouterModule.forRoot(routes)
   ],
-  providers: [],
+  providers: [{provide: LocationStrategy, useClass: HashLocationStrategy}],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
