@@ -16,14 +16,15 @@ import { ContactComponent } from './contact/contact.component';
 import { EditionsComponent } from './editions/editions.component';
 import { LandingImageComponent } from './landing-image/landing-image.component';
 import { LandingPageComponent } from './landing-page/landing-page.component';
+import { BlogPageComponent } from './blog-page/blog-page.component';
 
 const routes: Routes = [
   // basic routes
   { path: '', redirectTo: 'home', pathMatch: 'full' },
-  { path: 'home', component: LandingPageComponent }
+  { path: 'home', component: LandingPageComponent },
   //{ path: 'register-individual', component: IndividualRegistrationComponent },
   //{ path: 'register-business', component: BusinessRegistrationComponent },
-  //{ path: 'blog', component: BlogPageComponent },
+  { path: 'blog', component: BlogPageComponent }
   //{ path: '**', component: ErrorComponent }
 ];
 
@@ -41,7 +42,8 @@ const routes: Routes = [
     ContactComponent,
     EditionsComponent,
     LandingImageComponent,
-    LandingPageComponent
+    LandingPageComponent,
+    BlogPageComponent
   ],
   imports: [
     BrowserModule,
