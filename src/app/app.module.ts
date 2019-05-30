@@ -9,7 +9,7 @@ import { AboutComponent } from './about/about.component';
 import { SpeakersComponent } from './speakers/speakers.component';
 import { SponsorsComponent } from './sponsors/sponsors.component';
 import { BlogComponent } from './blog/blog.component';
-import { RegisterComponent } from './register/register.component';
+import { PricingComponent } from './pricing/pricing.component';
 import { ContactComponent } from './contact/contact.component';
 import { ValuesComponent } from './values/values.component';
 
@@ -23,7 +23,7 @@ import { ValuesComponent } from './values/values.component';
     SpeakersComponent,
     SponsorsComponent,
     BlogComponent,
-    RegisterComponent,
+    PricingComponent,
     ContactComponent,
     ValuesComponent
   ],
