@@ -25,3 +25,13 @@
     background: white;
     border-radius: 3px;
 }
+
+ul {
+    padding:0 0 0 20;
+    text-align: left;
+    list-style: none;
+}
+
+ul li:before {
+    content: '✓';
+  }
