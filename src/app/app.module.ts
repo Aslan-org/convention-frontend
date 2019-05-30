@@ -11,7 +11,7 @@ import { SponsorsComponent } from './sponsors/sponsors.component';
 import { BlogComponent } from './blog/blog.component';
 import { PricingComponent } from './pricing/pricing.component';
 import { ContactComponent } from './contact/contact.component';
-import { ValuesComponent } from './values/values.component';
+import { EditionsComponent } from './editions/editions.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +25,7 @@ import { ValuesComponent } from './values/values.component';
     BlogComponent,
     PricingComponent,
     ContactComponent,
-    ValuesComponent
+    EditionsComponent
   ],
   imports: [
     BrowserModule
